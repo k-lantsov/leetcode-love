@@ -3,7 +3,7 @@ package com.example;
 import java.util.HashMap;
 import java.util.Map;
 
-class TwoSum {
+public class TwoSum {
 
     public static int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> elemToIndex = new HashMap<>();
