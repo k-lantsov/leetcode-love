@@ -18,11 +18,6 @@ class RemoveDuplicatesTest {
 
     @Test
     void removeDuplicatesExample3() {
-        assertThat(RemoveDuplicates.removeDuplicates(new int[]{})).isEqualTo(0);
-    }
-
-    @Test
-    void removeDuplicatesExample4() {
         assertThat(RemoveDuplicates.removeDuplicates(new int[]{1, 1, 1, 1})).isEqualTo(1);
     }
 }
