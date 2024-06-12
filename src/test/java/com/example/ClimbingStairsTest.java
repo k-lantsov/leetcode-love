@@ -15,4 +15,14 @@ class ClimbingStairsTest {
     void climbStairsExample2() {
         assertThat(ClimbingStairs.climbStairs(3)).isEqualTo(3);
     }
+
+    @Test
+    void climbStairsExample3() {
+        assertThat(ClimbingStairs.climbStairs(1)).isEqualTo(1);
+    }
+
+    @Test
+    void climbStairsExample4() {
+        assertThat(ClimbingStairs.climbStairs(8)).isEqualTo(34);
+    }
 }
