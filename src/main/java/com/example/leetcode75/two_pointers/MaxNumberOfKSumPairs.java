@@ -1,4 +1,4 @@
-package com.example.leetcode75;
+package com.example.leetcode75.two_pointers;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.example.leetcode75;
+package com.example.leetcode75.array_string;
 
 import java.util.HashSet;
 import java.util.Set;

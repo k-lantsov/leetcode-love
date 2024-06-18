@@ -1,4 +1,4 @@
-package com.example.leetcode75;
+package com.example.leetcode75.two_pointers;
 
 public class MoveZeroes {
 

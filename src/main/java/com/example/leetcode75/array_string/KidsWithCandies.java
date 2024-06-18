@@ -1,4 +1,4 @@
-package com.example.leetcode75;
+package com.example.leetcode75.array_string;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,12 +14,8 @@ public class KidsWithCandies {
         }
 
         List<Boolean> ans = new ArrayList<>();
-        for (int candy : candies) {
-            if (candy + extraCandies >= maxCandies) {
-                ans.add(true);
-            } else {
-                ans.add(false);
-            }
+        for (int elem : candies) {
+            ans.add(elem + extraCandies >= maxCandies);
         }
         return ans;
     }
