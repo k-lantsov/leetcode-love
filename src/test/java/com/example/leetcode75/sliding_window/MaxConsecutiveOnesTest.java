@@ -23,4 +23,10 @@ class MaxConsecutiveOnesTest {
         assertThat(MaxConsecutiveOnes.longestOnes(new int[]{1, 1, 1, 0, 0}, 2))
                 .isEqualTo(5);
     }
+
+    @Test
+    void longestOnesExample4() {
+        assertThat(MaxConsecutiveOnes.longestOnes(new int[]{1, 1, 1, 0, 0, 0, 0, 1, 0, 1}, 2))
+                .isEqualTo(5);
+    }
 }
