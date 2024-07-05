@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class RightSideViewTest {
 
     @Test
-    void rightSideView() {
+    void rightSideViewExample1() {
         RightSideView rightSideView = new RightSideView();
         TreeNode node22 = new TreeNode(2, null, null);
         TreeNode node11 = new TreeNode(1, null, node22);
